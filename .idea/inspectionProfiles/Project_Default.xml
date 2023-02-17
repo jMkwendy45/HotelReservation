@@ -1,6 +1,7 @@
 <component name="InspectionProjectProfileManager">
   <profile version="1.0">
     <option name="myName" value="Project Default" />
+ spaces
     <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
       <option name="ignoredIdentifiers">
         <list>
@@ -10,6 +11,54 @@
           <option value="data.model.RelationShipStatus" />
           <option value="random.random.randit" />
           <option value="random.random.randint" />
+
+    <inspection_tool class="DuplicatedCode" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <Languages>
+        <language minSize="207" name="Python" />
+      </Languages>
+    </inspection_tool>
+    <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="E231" />
+          <option value="E303" />
+          <option value="E501" />
+          <option value="W605" />
+          <option value="E402" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N801" />
+          <option value="N802" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyShadowingBuiltinsInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredNames">
+        <list>
+          <option value="type" />
+          <option value="sum" />
+          <option value="max" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="classwork.list_number" />
+          <option value="data.model.User.personal_information" />
+          <option value="data.model.Account.Account.set_id" />
+          <option value="data.model.Account.Account.get_id" />
+          <option value="data.repository.AccountRepositoryImplementation.acc_impl" />
+          <option value="data.model.personal_information.PersonalInformation._person_id" />
+          <option value="Play_play.card.deck" />
+          <option value="data.model.Account.Account._bank" />
+          <option value="data.model.Account.Account._pin" />
+          <option value="data.model.personal_information.PersonalInformation.person_id" />
+indev
         </list>
       </option>
     </inspection_tool>
